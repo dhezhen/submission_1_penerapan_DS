@@ -35,7 +35,25 @@ Proyek ini mencakup:
 ### Persiapan
 **Sumber data**: Dataset yang digunakan dalam proyek ini adalah [Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee) sesuai dengan instruksi dari submission proyek ini.
 **Setup environment**:
-- Setup Evironment - 
+1. setup environment - Anaconda
+```
+conda create --name data_analisys python=3.10
+conda activate data_analisys
+pip install -r requirements.txt
+```
+2. setup environment - Shell/terminal
+```
+pip install pipenv
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+4. setup environment - Notebook Google Collab (jika menggunakan google colab)
+- Pastikan semua dependensi, paket, dan pustaka yang diperlukan telah tersedia (terdapat file requirements.txt).
+- Kemudian, jalankan seluruh sel dalam file submission_1.ipynb menggunakan Google Colab atau Jupyter Notebook untuk menampilkan hasil analisis data, temuan yang diidentifikasi, serta insight yang diperoleh
+2.  Menjalankan Dashboard
+- untuk menjalankan dashboard, silakan klik
 
 Proyek ini membutuhkan lingkungan sederhana untuk menjalankan analisis data dan dashboard. Berikut langkah-langkah untuk mempersiapkan environment:
 1. Menjalankan `notebook.ipynb`
