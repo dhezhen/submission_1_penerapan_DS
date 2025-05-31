@@ -1,4 +1,4 @@
-# Submission #1 Penerapan Data Analisi
+# Submission #1 Penerapan Data Analisis
 
 ## Business Understanding
 
